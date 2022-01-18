@@ -2,7 +2,7 @@ const opts = require('./src/operators.js');
 const mode = require('./src/mode.js');
 
 module.exports = {
-    camel: (...args) =>mode(opts.CAMEL, ...args),
+    camel: (...args) => mode(opts.CAMEL, ...args),
     class: (...args) => mode(opts.CLASS, ...args),
     lower: (...args) => mode(opts.LOWER, ...args),
     upper: (...args) => mode(opts.UPPER, ...args),

@@ -168,8 +168,7 @@ function multipleMode() {
 
 module.exports = (...args) => {
     let len = args.length;
-    if(!args[1]) return ''; 
-    console.log('len', args);
+    if(!args[1]) return '';
     switch(len) {
         case 1: return ''; break;
         case 2: return simpleMode(...args); break;
