@@ -1,0 +1,14 @@
+{
+  "name": "string-pattern",
+  "version": "1.0.0",
+  "description": "Using current file to parse specifies string mode of according to the function arguments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Maple Joe",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^9.1.3"
+  }
+}
