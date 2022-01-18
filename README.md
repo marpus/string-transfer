@@ -1,4 +1,4 @@
-# string-pattern v1.0.0
+# string-transfer v1.0.0
 > This is a function for parsing into specified string pattern 
 based on the parameters of function to pass.
 

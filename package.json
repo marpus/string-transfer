@@ -1,7 +1,7 @@
 {
-  "name": "string-pattern",
+  "name": "string-transfer",
   "version": "1.0.0",
-  "description": "Using current file to parse specifies string mode of according to the function arguments.",
+  "description": "This is a function for parsing into specified string pattern based on the parameters of function to pass.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
