@@ -6,7 +6,14 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "Maple Joe",
+  "author": {
+    "name": "Maple Joe",
+    "url": "https://github.com/marpus/string-pattern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marpus/string-pattern.git"
+  },
   "license": "MIT",
   "dependencies": {
     "mocha": "^9.1.3"

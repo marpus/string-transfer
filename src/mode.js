@@ -1,4 +1,4 @@
-const opts = require('./operators.js');
+const opts = require('./operators.js').opts;
 const UPPER = 65;
 const LOWER = 91; 
 
@@ -27,7 +27,7 @@ function simpleMode() {
     switch(opt) {
         case opts.CAMEL: 
             str = str.toLowerCase();
-            str.length === 1 ? '' : str = str[0] + str[1].toUpperCase() + str.substring(2);
+            str.length === 1 ? false : str = str[0] + str[1].toUpperCase() + str.substring(2);
             break;  
         case opts.CLASS: 
             str = str.toLowerCase();
@@ -168,9 +168,8 @@ function multipleMode() {
 
 module.exports = (...args) => {
     let len = args.length;
-    if(!args[1]) return '';
+    if(!args[1] || len === 1) return '';
     switch(len) {
-        case 1: return ''; break;
         case 2: return simpleMode(...args); break;
         default: return multipleMode(...args); 
     }

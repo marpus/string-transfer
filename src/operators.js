@@ -1,4 +1,4 @@
-module.exports = Object.freeze({
+module.exports.opts = Object.freeze({
     CAMEL: 'camel',
     CLASS: 'class',
     UPPER: 'upper',
@@ -16,3 +16,11 @@ module.exports = Object.freeze({
     REVERSEBYWORD: 'reversebyword',
     UPPERLOWERANDREVERSEBYWORD: 'upperlowerandreversebyword'
 });
+
+module.exports.methodlist = [
+    'camel', 'class', 'lower', 'upper', 'const',
+    'underln', 'underlnIncludeFirst', 'midln', 'midlnIncludeFirst',
+    'doller', 'dollerIncludeFirst', 'reverse', 'upperlower',
+    'upperlowerAndReverse', 'reverseByWord','upperlowerByWord',
+    'upperlowerAndReverseByWord'
+]
