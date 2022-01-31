@@ -8,11 +8,11 @@
   },
   "author": {
     "name": "Maple Joe",
-    "url": "https://github.com/marpus/string-pattern"
+    "url": "https://github.com/marpus/string-transfer"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marpus/string-pattern.git"
+    "url": "git+https://github.com/marpus/string-transfer.git"
   },
   "license": "MIT",
   "dependencies": {
