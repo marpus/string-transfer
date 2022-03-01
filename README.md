@@ -11,7 +11,7 @@ npm i string-transfer@latest
 
 > How to import function of 'string-transfer'. 
 ```
-const stringmode = require('string-transfer');
+const stringmode = require('string-transfer').method;
 ```
 
 > How to use

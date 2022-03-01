@@ -2,22 +2,6 @@ const opts = require('./operators.js').opts;
 const UPPER = 65;
 const LOWER = 91; 
 
-// let secTypeObj = new WeakMap(); 
-// secTypeObj.set(opts.CAMEL, [opts.UNLN, opts.PREUNLN, opts.MIDLN, opts.PREMIDLN, opts.DOLLER, opts.PREDOLLER]);
-// const secTypeObj = {
-//     opts.CAMEL: [opts.UNLN, opts.PREUNLN, opts.MIDLN, opts.PREMIDLN, opts.DOLLER, opts.PREDOLLER],
-//     opts.CLASS: [opts.UNLN, opts.PREUNLN, opts.MIDLN, opts.PREMIDLN, opts.DOLLER, opts.PREDOLLER],
-//     opts.LOWER: [opts.UNLN, opts.PREUNLN, opts.MIDLN, opts.PREMIDLN, opts.DOLLER, opts.PREDOLLER],
-//     opts.UPPER: [opts.UNLN, opts.PREUNLN, opts.MIDLN, opts.PREMIDLN, opts.DOLLER, opts.PREDOLLER],
-//     opts.CONST: [opts.UNLN, opts.PREUNLN, opts.MIDLN, opts.PREMIDLN, opts.DOLLER, opts.PREDOLLER],
-//     opts.UNLN: [opts.CAMEL, opts.CLASS, opts.LOWER, opts.UPPER, opts.CONST, opts.MIDLN, opts.PREMIDLN, opts.DOLLER, opts.PREDOLLER],
-//     opts.PREUNLN: [opts.CAMEL, opts.CLASS, opts.LOWER, opts.UPPER, opts.CONST, opts.MIDLN, opts.PREMIDLN, opts.DOLLER, opts.PREDOLLER],
-//     opts.MIDLN: [opts.CAMEL, opts.CLASS, opts.LOWER, opts.UPPER, opts.CONST, opts.UNLN, opts.PREUNLN, opts.DOLLER, opts.PREDOLLER],
-//     opts.PREMIDLN: [opts.CAMEL, opts.CLASS, opts.LOWER, opts.UPPER, opts.CONST, opts.UNLN, opts.PREUNLN, opts.DOLLER, opts.PREDOLLER],
-//     opts.DOLLER: [opts.CAMEL, opts.CLASS, opts.LOWER, opts.UPPER, opts.CONST, opts.UNLN, opts.PREUNLN, opts.MIDLN, opts.PREMIDLN],
-//     opts.PREDOLLER: [opts.CAMEL, opts.CLASS, opts.LOWER, opts.UPPER, opts.CONST, opts.UNLN, opts.PREUNLN, opts.MIDLN, opts.PREMIDLN]
-// };
-
 let isObject = obj => typeof obj === 'object' && obj != null; 
 let isArray = o => Array.isArray(o) && o.length !== 0; 
 let isNullString = str => typeof str === 'string' && str !== '';

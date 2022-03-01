@@ -1,6 +1,6 @@
 {
   "name": "string-transfer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a function for parsing into specified string pattern based on the parameters of function to pass.",
   "main": "index.js",
   "scripts": {
